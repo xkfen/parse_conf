@@ -8,7 +8,7 @@ import (
 	"github.com/widuu/goini"
 )
 
-const DefaultConfigFile = "/etc/license.conf"
+const DefaultConfigFile = "/etc/parse.conf"
 
 type appConfig struct {
 	redisHosts    []string
